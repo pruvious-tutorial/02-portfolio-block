@@ -1,0 +1,7 @@
+.cache
+.nitro
+.nuxt
+.output
+.pruvious
+.uploads
+node_modules
