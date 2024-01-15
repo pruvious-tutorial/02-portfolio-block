@@ -3,7 +3,7 @@
     <button
       @click="close()"
       aria-label="Close"
-      class="fixed right-6 top-6 z-10 flex h-8 w-8 text-white ph:right-4 ph:top-4"
+      class="fixed right-6 top-6 z-10 flex h-8 w-8 text-white transition hocus:text-accent ph:right-4 ph:top-4"
     >
       <IconX class="m-auto h-6 w-6" />
     </button>
@@ -36,7 +36,7 @@
         <button
           aria-label="Previous slide"
           ref="prevSlideEl"
-          class="pointer-events-auto absolute right-full mr-6 flex h-8 w-8 text-white transition disabled:opacity-0"
+          class="pointer-events-auto absolute right-full mr-6 flex h-8 w-8 text-white transition hocus:text-accent"
         >
           <IconChevronLeft class="m-auto h-6 w-6" />
         </button>
@@ -44,7 +44,7 @@
         <button
           aria-label="Next slide"
           ref="nextSlideEl"
-          class="pointer-events-auto absolute left-full ml-6 flex h-8 w-8 text-white transition disabled:opacity-0"
+          class="pointer-events-auto absolute left-full ml-6 flex h-8 w-8 text-white transition hocus:text-accent"
         >
           <IconChevronRight class="m-auto h-6 w-6" />
         </button>
