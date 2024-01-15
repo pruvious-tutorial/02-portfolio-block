@@ -23,17 +23,17 @@
           <PruviousPicture :image="image" />
 
           <span
-            class="group-hocus:opacity-100 absolute inset-0 flex flex-col gap-4 bg-heading/70 p-8 text-white opacity-0 transition duration-300 ph:p-6"
+            class="absolute inset-0 flex flex-col gap-4 bg-heading/70 p-8 text-white opacity-0 transition duration-300 group-hocus:opacity-100 ph:p-6"
           >
             <span
               v-if="caption"
-              class="group-hocus:translate-y-0 -translate-y-3 text-left font-heading font-medium transition duration-300"
+              class="-translate-y-3 text-left font-heading font-medium transition duration-300 group-hocus:translate-y-0"
             >
               {{ caption }}
             </span>
 
             <IconSearch
-              class="group-hocus:translate-y-0 ml-auto mt-auto h-6 w-6 translate-y-3 transition duration-300"
+              class="ml-auto mt-auto h-6 w-6 translate-y-3 transition duration-300 group-hocus:translate-y-0"
             />
           </span>
         </button>
