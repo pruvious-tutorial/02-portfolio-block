@@ -1,6 +1,6 @@
 # Project
 
-This project was generated with [Pruvious](https://pruvious.com) CLI version 3.9.4.
+This project was generated with [Pruvious](https://pruvious.com) CLI version 3.9.7.
 
 Documentation: [https://pruvious.com/docs](https://pruvious.com/docs)
 
