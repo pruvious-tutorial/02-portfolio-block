@@ -4,6 +4,15 @@ This project was generated with [Pruvious](https://pruvious.com) CLI version 3.9
 
 Documentation: [https://pruvious.com/docs](https://pruvious.com/docs)
 
+## Admin Credentials
+
+This repository contains a database and uploads for demonstration. The admin user's credentials are:
+
+-  Email: hello@pruvious.com
+-  Password: 12345678
+
+To access the dashboard, go to `http://localhost:3000/dashboard`.
+
 ## Setup
 
 Make sure to install the dependencies:
